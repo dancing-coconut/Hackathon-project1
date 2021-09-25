@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+font-size: 62.5%; /*for root font-size ie 1rem = 10px*/
+}
+
+body{
+    font-family: ;
+    font-weight: ;
+    font-size: ;
+    line-height: ;
+    color: ;
+    box-sizing: border-box;
+}
+
+.title__main{ /*learn*/ 
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 181px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.mainsection__image{
+  display: inline-block;
+  height: 90vh;
+  width: 55%;
+  position: relative;
+  top: 10%;
+  left: 1%;
+}
+
+.description__main{ /*cryptocurr,bitcoin*/
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 80.64px;
+  color: #FFFFFF;
+  position: absolute;
+  top:130px;
+  left: 40px;
+}
+
+.buttondesc__main{ /*Get Started Now*/
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #5B10A8;
+}
+
+.title__sub{ /*Subsection Title*/
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.title__logo{ /*Logo Text(Bitcoin)*/
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #5B10A8;
+  position:relative;
+  left:10px;
+  top:16px;
+  float:right;
+}
+
+.title__menu{  /*Menu Options*/
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  color: #5B10A8;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+  /* width: 300px; */
+}
+
+.item1{
+  position: absolute;
+  top:8px;
+  left:410px;
+}
+.item2{
+  position: absolute;
+  top:8px;
+  left:200px;
+}
+.item3{
+  position: absolute;
+  top:8px;
+  left:0px;
+}
+
+.button__main{  /*Main Button Styling*/
+  height: 101px;
+  width: 401px;
+  left: 233px;
+  top: 841px;
+  border-radius: 57px;
+  position:absolute;
+  top: 80%;
+  left: 180px;
+}
+
+.WholeLogo{
+  display: inline-block;
+}
+
+.pic__logo{
+  width:60px;
+  height:60px;
+}
+.MenuOptions{
+  display:inline-block;
+  position:relative;
+  left:45%;
+  bottom:70px;
+  text-decoration: none;
+  list-style: none;
+}
+.MainContainer{
+  position:relative;
+}
+.subsection{
+  position: relative;
+  left:820px;
+  /* bottom:200%; */
+  top: -200%;
+  width: 400px;
+}
+
+.sub_imgInvestments{
+  display:inline-block;
+  position: absolute;
+  width: 150%;
+  top: 0px;
+  height: 205px;
+  border-radius: 23px;
+}
+.sub_imgTransaction{
+  position: absolute;
+  top:140px;
+  width: 150%;
+  height: 205px;
+  border-radius: 23px;
+}
+.sub_imgBitcoin-Mining{
+  display:inline-block;
+  position: absolute;
+  top:284px;
+  height: 205px;
+  border-radius: 23px;
+  width: 150%;
+}
+
+
+
+
