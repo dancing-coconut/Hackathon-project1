@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "./Logo";
-import Item from "./Item";
+import Logo from "./Landingpage/Logo";
+import Item from "./Landingpage/Item";
 import { Route, Switch } from "react-router";
 
 function NavigationBar() {
