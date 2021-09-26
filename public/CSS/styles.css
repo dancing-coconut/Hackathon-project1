@@ -146,14 +146,14 @@ body{
   position: absolute;
   width: 150%;
   top: 0px;
-  height: 205px;
+  height: 273.5%;
   border-radius: 23px;
 }
 .sub_imgTransaction{
   position: absolute;
   top:145px;
   width: 150%;
-  height: 205px;
+  height: 273.5%;
   border-radius: 23px;
 }
 
@@ -162,7 +162,7 @@ body{
   position: absolute;
   width: 150%;
   top:290px;
-  height: 205px;
+  height: 273.5%;
   border-radius: 23px;
 }
 
