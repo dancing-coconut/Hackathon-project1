@@ -1,12 +1,13 @@
 import React from "react";
 
 function SubSection(props){
-    const classname = "sub_img";
+    const classname = "subsection__";
+    const classname3 = "subsectionImg__";
     const classname1 = "title__sub";
     const classname2 = `title__sub ${classname1.concat(props.title)}`;
     return(
-        <div className="subsection">
-            <img className={classname.concat(props.title)} src={props.bgUrl} alt={props.alt} />
+        <div className={classname.concat(props.title)}>
+            <img className={classname3.concat(props.title)} src={props.bgUrl} alt={props.alt} />
             <span className={classname2}>{props.title}</span>
         </div>
     );

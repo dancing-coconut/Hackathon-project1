@@ -8,7 +8,7 @@ function LandingPage(props){
         <div>
             <NavigationBar />
             <MainSection />
-            <div className="subsection__div">
+            <div className="subsection">
                 {/* <Link to=''> */}
                 <SubSection bgUrl="/Images/LandingPage/InvestmentMainPage.png" alt="bitcoin-Investments" title="Investments"></SubSection>
             {/* </Link>
