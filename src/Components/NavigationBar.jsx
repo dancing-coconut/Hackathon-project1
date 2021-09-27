@@ -1,19 +1,17 @@
 import React from "react";
 import Logo from "./Landingpage/Logo";
 import Item from "./Landingpage/Item";
-import { Route, Switch } from "react-router";
+import {Link} from 'react-router-dom';
 
-function NavigationBar() {
+function NavigationBar(props) {
+    // console.log(props.itemcolor);
     return(
         <div>
-            <Logo />
+            <Logo color={props.itemcolor}/>
             <ul className="MenuOptions">
-            {/* <Switch>
-                <Route path="/profile" component={} exact></Route>
-            </Switch> */}
-                <li className="item1"><Item option="Profile"/></li>
-                <li className="item2"><Item option="Contact "/></li>
-                <li className="item3"><Item option="Explore"/></li>
+                <Link to=''><li className="item1"><Item color={props.itemcolor} option="Profile"/></li></Link>
+                <Link to=''><li className="item2"><Item color={props.itemcolor} option="Contact "/></li></Link>
+                <Link to=''><li className="item3"><Item color={props.itemcolor} option="Explore"/></li></Link>
             </ul>
         </div>
     );

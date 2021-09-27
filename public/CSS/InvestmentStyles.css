@@ -16,9 +16,16 @@ body{
   box-sizing: border-box;
 }
 
+.title__logo{
+    color: #FFFFFF;
+}
+.title__menu{
+    color: #FFFFFF;
+}
+
 .Investment__header{
     height: 75vh;
-    background-image: url("../Images/BitcoingInvestment.jpg");
+    background-image: url("../Images/BitcoinInvestment.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -27,24 +34,21 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     position:relative;
-    top:45vh;
+    top:10vh;
 }
 .subpagebox__1{
-    background-color: #FE87FF;
     width:30%;
     border-radius:20px;
     height: 35vh;
     padding:15px;
 }
 .subpagebox__2{
-    background-color: #FF0FFF;
     width:30%;
     border-radius:20px;
     height: 35vh;
     padding:15px;
 }
 .subpagebox__3{
-    background-color: #9002FA;
     width:30%;
     border-radius:20px;
     height: 35vh;
@@ -55,31 +59,62 @@ body{
     font-family: Sora;
     font-size:2.5em;
     padding:7px;
+    position: relative;
+    top: 24.5px;
 }
 .subpagetitle__2{
     color:#FFFFFF;
     font-family: Sora;
     font-size:2.5em;
     padding:7px;
+    position: relative;
+    top: 24.5px;
 }
 .subpagetitle__3{
     color:#FFFFFF;
     font-family: Sora;
     font-size:2.5em;
     padding:7px;
+    position: relative;
+    top: 24.5px;
 }
 .subpagetext__1{
     color:#FFFFFF;
     font-family: Sora;
     padding: 7px;
+    position: relative;
+    top: 20px;
 }
 .subpagetext__2{
     color:#FFFFFF;
     font-family: Sora;
     padding: 7px;
+    position: relative;
+    top: 20px;
 }
 .subpagetext__3{
     color:#FFFFFF;
     font-family: Sora;
     padding: 7px;
+    position: relative;
+    top: 20px;
+}
+.Investment__title{
+    color:#FFFFFF;
+    font-size: 6em;
+    padding-left: 8rem;
+    padding-top:30px;
+}
+.Investment__desc{
+    color: #FFFFFF;
+    padding-left: 8rem;
+    padding-top: 20px;
+    font-size: 1.5em;
+    width:50%;
+}
+.Icons{
+    color:white;
+    transform: scale(5.0);
+    padding-left: 7px;
+    padding-top: 7px;
 }

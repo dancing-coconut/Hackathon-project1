@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+font-size: 62.5%; /*for root font-size ie 1rem = 10px*/
+}
+
+body{
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.Mining__header{
+    height: 75vh;
+    background-image: url("../Images/BitcoinMining.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Mining__title{
+    color:#FFFFFF;
+    font-size: 6em;
+    padding-left: 8rem;
+    padding-top:30px;
+}
+.Mining__desc{
+    color: #FFFFFF;
+    padding-left: 8rem;
+    padding-top: 20px;
+    font-size: 1.5em;
+    width:50%;
+}
+
+
