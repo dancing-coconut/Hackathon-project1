@@ -5,7 +5,6 @@ import DevicesOtherIcon from '@mui/icons-material/DevicesOther';
 
 function SubPageBox(props) {
 	const color = "#"+props.color1;
-	console.log(color);
 	const icon = function (name){
 		if(name === "LibraryBooksIcon"){
 			return (<LibraryBooksIcon className="Icons"/>);

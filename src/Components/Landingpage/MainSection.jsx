@@ -1,12 +1,6 @@
 import React from "react";
-// import Typed from 'typed.js';
 
 function MainSection(){
-    // var options = {
-    //     strings: ['Cryptocurrency', '&amp; a second sentence.'],
-    //     typeSpeed: 40
-    //   };
-    // var typed = new Typed('.main__text', options);
     return(
         <div className="MainContainer">
             <img className="mainsection__image" src='/Images/LandingPage/BackgroundImageMain.png' alt="Main"/>

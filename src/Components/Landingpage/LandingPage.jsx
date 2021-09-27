@@ -9,15 +9,11 @@ function LandingPage(props){
             <NavigationBar itemcolor="#5B10A8"/>
             <MainSection />
             <div className="subsection">
-                {/* <Link to=''> */}
                 <SubSection bgUrl="/Images/LandingPage/InvestmentMainPage.png" alt="bitcoin-Investments" title="Investments" pathtitle="InvestmentPage"></SubSection>
-            {/* </Link>
-            <Link to=''> */}
+           
                 <SubSection bgUrl="/Images/LandingPage/TransactionMainPage.png" alt="bitcoin-Transaction" title="Transaction" pathtitle="TransactionsPage"></SubSection>
-            {/* </Link>
-            <Link to=''> */}
+            
                 <SubSection bgUrl="/Images/LandingPage/BitcoinMiningMainPage.png" alt="bitcoin-Mining" title="Bitcoin-Mining" pathtitle="MiningPage"></SubSection>
-            {/* </Link> */}
             </div>
         </div>
     );

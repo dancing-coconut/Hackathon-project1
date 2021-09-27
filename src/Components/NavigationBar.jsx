@@ -4,7 +4,6 @@ import Item from "./Landingpage/Item";
 import {Link} from 'react-router-dom';
 
 function NavigationBar(props) {
-    // console.log(props.itemcolor);
     return(
         <div>
             <Logo color={props.itemcolor}/>
