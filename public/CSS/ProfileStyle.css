@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+font-size: 62.5%; /*for root font-size ie 1rem = 10px*/
+}
+
+body{
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.menu__items--div{
+  height: 70px;
+}
+
+.menu__items--container{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  left:45%;
+  bottom:15px; 
+}
+
+

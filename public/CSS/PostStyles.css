@@ -1,0 +1,29 @@
+.Post__title{
+    font-family: Sora;
+    color: #5B10A8;
+    font-size: 30px;
+}
+.PostBox{
+    width: 950px;
+    height: 500px;
+}
+.PostTitle{
+    width: 900px;
+}
+.Post__Additions{
+    display: flex;
+}
+.Post{
+    color: #5B10A8;
+}
+.Photos{
+    color: #5B10A8;
+}
+.Links{
+    color: #5B10A8;
+}
+.Polls{
+    color: #5B10A8;
+}
+
+
