@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "../NavigationBar";
 import SubPageBox from "../SubPageBox"
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 function MiningPage() {
 	return(
 		<div className="Mining__header">

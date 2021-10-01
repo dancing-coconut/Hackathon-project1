@@ -3,6 +3,7 @@ import Logo from "./Landingpage/Logo";
 import Item from "./Landingpage/Item";
 import {Link} from 'react-router-dom';
 
+
 function Profilenavbar(props){
     return(
         <div style={{backgroundColor:props.bgcolor}} className="menu__items--div">
@@ -18,12 +19,15 @@ function Profilenavbar(props){
 }
 
 function NavigationBar(props) {
+    console.log(props.navtype);
     if(props.navtype==="profile"){
         return(
             <Profilenavbar itemcolor={props.itemcolor} bgcolor={props.bgcolor} />
         );
     }
-    else{
+    else {
+        console.log(props.bgcolor,props.itemcolor);
+        console.log("hey");
         return(
             <div style={{backgroundColor:props.bgcolor}}>
                 <Logo color={props.itemcolor}/>

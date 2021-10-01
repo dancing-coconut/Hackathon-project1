@@ -5,7 +5,7 @@ import NavigationBar from '../NavigationBar';
 function Resource(){
     return(
     <div className="Rsrc__Page">
-        <NavigationBar />
+        <NavigationBar itemcolor="white" bgcolor="#5B10A8" navtype="profile1" />
         <ResourceSection rsrcname="Bitcoin Investments"/>
         <ResourceSection rsrcname="Bitcoin Transactions" />
         <ResourceSection rsrcname="Bitcoin Mining" />

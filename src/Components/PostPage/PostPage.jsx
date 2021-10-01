@@ -15,18 +15,20 @@ function PostPage(){
                 <option>Transactions</option>
                 <option>Bitcoin Mining</option>
             </select>
-            <div className="PostBox">
-                <input type="text" placeholder="Title" className="PostTitle"></input>
-                <div className="Post__Additions">
-                    <button className="Post"></button>
-                    <button className="Photos"></button>
-                    <button className="Links"></button>
-                    <button className="Polls"></button>
-                </div>
-                <textarea className="Post__area" placeholder="Text (optional)"></textarea>
-                <div className="Post__buttons">
-                    <button className="Post__save">Save</button>
-                    <button className="Post__post">Post</button>
+            <div className="Postbox__container">
+                <div className="PostBox">
+                    <input type="text" placeholder="Title" className="PostTitle"></input>
+                    <div className="Post__Additions">
+                        <button className="Post">Post</button>
+                        <button className="Post__options">Photos</button>
+                        <button className="Post__options">Links</button>
+                        <button className="Post__options">Polls</button>
+                    </div>
+                    <textarea className="Post__area" placeholder="Text (optional)"></textarea>
+                    <div className="Post__buttons">
+                        <button className="Posting__options">Save</button>
+                        <button className="Posting__options">Post</button>
+                    </div>
                 </div>
             </div>
         </div>
