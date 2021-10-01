@@ -4,7 +4,7 @@ import NavigationBar from '../NavigationBar';
 function PostPage(){
     return(
         <div className="PostPage__div">
-            <NavigationBar />
+            <NavigationBar itemcolor="#FFFFFF" bgcolor="#5B10A8"/>
             <h4 className="Post__title">Create a Post</h4>
             <hr className="Post__line"/>
             <select className="Post__topic">

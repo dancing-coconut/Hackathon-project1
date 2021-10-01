@@ -7,14 +7,19 @@ import MailIcon from '@mui/icons-material/Mail';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+const iconStyles = {
+    accountIcon: {
+        fontSize:"50px"
+    }
+}
 
 function AboutMe(props){
     return (
-        <div>
-            <AccountCircleIcon />
-            <span>About Me</span>
+        <div className="aboutme__div">
+            <AccountCircleIcon style={iconStyles.accountIcon} className="aboutme__icon"/>
+            <span className="aboutme__text">About Me</span>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-            <img src="/Images/BitcoinTrans.png" alt="profile" />
+            <img className="profile__image" src="/Images/BitcoinTrans.png" alt="profile" />
             <span className="name__first">First Name</span>
             <span className="name__last">Last Name</span>
             <div className="aboutMe__icons">
@@ -25,7 +30,6 @@ function AboutMe(props){
                 <InstagramIcon />
                 <GitHubIcon /> 
             </div>
-        
         </div>
     );
 }

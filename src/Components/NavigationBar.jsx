@@ -17,26 +17,29 @@ function Profilenavbar(props){
         </div>
     );    
 }
+function Normalnavbar(props){
+    console.log(props.itemcolor,props.bgcolor);
+    return(
+        <div style={{backgroundColor:props.bgcolor}}>
+            <Logo color={props.itemcolor}/>
+            <ul className="MenuOptions">
+                <Link to='/ProfilePage'><li className="item1"><Item color={props.itemcolor} option="Profile"/></li></Link>
+                <Link to=''><li className="item2"><Item color={props.itemcolor} option="Contact"/></li></Link>
+                <Link to=''><li className="item3"><Item color={props.itemcolor} option="Explore"/></li></Link>
+            </ul>
+        </div>
+    );  
+}
 
 function NavigationBar(props) {
-    console.log(props.navtype);
     if(props.navtype==="profile"){
         return(
             <Profilenavbar itemcolor={props.itemcolor} bgcolor={props.bgcolor} />
         );
     }
     else {
-        console.log(props.bgcolor,props.itemcolor);
-        console.log("hey");
         return(
-            <div style={{backgroundColor:props.bgcolor}}>
-                <Logo color={props.itemcolor}/>
-                <ul className="MenuOptions">
-                    <Link to='/ProfilePage'><li className="item1"><Item color={props.itemcolor} option="Profile"/></li></Link>
-                    <Link to=''><li className="item2"><Item color={props.itemcolor} option="Contact"/></li></Link>
-                    <Link to=''><li className="item3"><Item color={props.itemcolor} option="Explore"/></li></Link>
-                </ul>
-            </div>
+            <Normalnavbar itemcolor={props.itemcolor} bgcolor={props.bgcolor} />
         );
     }    
 }
