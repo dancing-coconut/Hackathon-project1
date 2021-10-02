@@ -12,21 +12,99 @@
 }
 
 .aboutme__div{
+  position: relative;
   background-color: #DCC4F5;
   padding: 2%;
   margin: 1.5%;
   margin-top: 2.5%;
   border-radius: 15px;
+  height: 400px;
 }
 
 .aboutme__text{
   color: #5B10A8;
   font-size: 40px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
 }
 
 .profile__image{
-  height: 150px;
-  width:150px;
+  display: inline-block;
+  height: 250px;
+  width:250px;
   border-radius:100%;
+  position: absolute;
+  right: 6%;
+  top: 10%;
 }
 
+.aboutme__text--para{
+  position: relative;
+  top:20px;
+  left:10px;
+  width: 900px;
+  font-size: 22px;
+}
+
+.name__first{
+  font-size: 25px;
+  position: absolute;
+  right:10%;
+  top:75%;
+  color:#5B10A8;
+}
+
+.name__last{
+  font-size: 25px;
+  position: absolute;
+  right:10%;
+  top:83%;
+  color:#5B10A8;
+}
+
+.aboutMe__icons{
+  position: absolute;
+  bottom: 10%;
+}
+
+.myblogs__div{
+  position: relative;
+  background-color: #DCC4F5;
+  padding: 2%;
+  margin: 1.5%;
+  margin-top: 2.5%;
+  border-radius: 15px;
+  /* height: 0px;s */
+}
+
+.myblogs__text{
+  color: #5B10A8;
+  font-size: 40px;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+.blogsTitle__div{
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 1.5% 0 0 0;
+  height: 70px;
+}
+.blogsTitle__titleName{
+  margin: 1.5%;
+  position: absolute;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #5B10A8;
+}
+.blogsTitle__date{
+  margin: 1.5%;
+  position: absolute;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #5B10A8;
+  right: 0px;
+}

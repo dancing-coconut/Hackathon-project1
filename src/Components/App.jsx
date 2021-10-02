@@ -7,6 +7,7 @@ import MiningPage from "./Miningpage/MiningPage";
 import ProfilePage from "./Profilepage/ProfilePage";
 import Resource from "./Resourcepage/Resource";
 import PostPage from "./PostPage/PostPage";
+import InfoPage from "./Infopage/InfoPage";
 
 function App(props) {
   return (
@@ -20,6 +21,7 @@ function App(props) {
           <Route path="/Resource" component={Resource} />
           <Route path="/ProfilePage" component={ProfilePage} />
           <Route path="/PostPage" component={PostPage} />
+          <Route path="/InfoPage" component={InfoPage} />
         </Switch>
       </div>
     </Router>

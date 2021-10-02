@@ -1,6 +1,7 @@
 import React from "react";
 import NavigationBar from "../NavigationBar";
-import SubPageBox from "../SubPageBox"
+import SubPageBox from "../SubPageBox";
+import Img from 'react-optimized-image';
 function InvestmentPage() {
 	return(
 		<div className="Investment__header">

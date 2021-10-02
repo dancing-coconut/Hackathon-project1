@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
 function BlogTitle(props) {
-    return (
-        <div>
-            <span>User's blog title</span>
-            <span>Date posted</span>
-        </div>
-    );
+  return (
+    <div className="blogsTitle__div">
+      <span className="blogsTitle__titleName">{props.titleName}</span>
+      <span className="blogsTitle__date">{props.date}</span>
+    </div>
+  );
 }
 
 export default BlogTitle;
-
