@@ -9,10 +9,10 @@ function Profilenavbar(props){
         <div style={{backgroundColor:props.bgcolor}} className="menu__items--div">
             <Logo color={props.itemcolor}/>
             <div className="menu__items--container">
-                <Link to=''><Item color={props.itemcolor} option="Progress"/></Link>
+                <Link to='/AboutMe'><Item color={props.itemcolor} option="About"/></Link>
+                <Link to='/MyBlogs'><Item color={props.itemcolor} option="Blogs"/></Link>
                 <Link to=''><Item color={props.itemcolor} option="Starred"/></Link>
-                <Link to=''><Item color={props.itemcolor} option="Blogs"/></Link>
-                <Link to=''><Item color={props.itemcolor} option="About"/></Link>
+                <Link to=''><Item color={props.itemcolor} option="Progress"/></Link>
             </div>
         </div>
     );    

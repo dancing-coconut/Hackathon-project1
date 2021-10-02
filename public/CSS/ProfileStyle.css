@@ -94,14 +94,14 @@
   height: 70px;
 }
 .blogsTitle__titleName{
-  margin: 1.5%;
+  margin: 1.5% 1.5% 1.5% 3%;
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
   color: #5B10A8;
 }
 .blogsTitle__date{
-  margin: 1.5%;
+  margin: 1.5% 5% 1.5% 1.5%;
   position: absolute;
   font-size: 30px;
   font-weight: lighter;
