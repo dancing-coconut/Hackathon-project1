@@ -11,12 +11,13 @@
   bottom:15px; 
 }
 
+/* About Me Section */
 .aboutme__div{
   position: relative;
   background-color: #DCC4F5;
   padding: 2%;
-  margin: 1.5%;
-  margin-top: 2.5%;
+  /* margin: 2.5% 1.5% 1.5% 1.5%; */
+  margin: 2.5% 2.5% 1.5% 2.5%;
   border-radius: 15px;
   height: 400px;
 }
@@ -68,14 +69,13 @@
   bottom: 10%;
 }
 
+/* My Blogs Section */
 .myblogs__div{
   position: relative;
   background-color: #DCC4F5;
   padding: 2%;
-  margin: 1.5%;
-  margin-top: 2.5%;
+  margin: 2.5% 2.5% 1.5% 2.5%;
   border-radius: 15px;
-  /* height: 0px;s */
 }
 
 .myblogs__text{
@@ -107,4 +107,33 @@
   font-weight: lighter;
   color: #5B10A8;
   right: 0px;
+}
+
+/* Progress Bar Section */
+.progressBar__div{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5% 0 5%;
+}
+
+.progressBar__div--investments{
+  width: 300px;
+  position: relative;
+}
+
+.progressBar__div--transactions{
+  width: 300px;
+  position: relative;
+}
+
+.progressBar__div--mining{
+  width: 300px;
+  position: relative;
+}
+
+.progressBar__descText{
+  padding-top: 7%;
+  font-size: 35px;
+  color: #5B10A8;
+  text-align: center;
 }
