@@ -1,4 +1,4 @@
-const blogTitleInfo = [
+const starredInfo = [
     {
         id:1,
         title:"Blog title 1",
@@ -16,4 +16,4 @@ const blogTitleInfo = [
     }
 ]
 
-export default blogTitleInfo;
+export default starredInfo;
