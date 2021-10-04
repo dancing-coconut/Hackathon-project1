@@ -1,26 +1,55 @@
-.Info__container{
-    background-color: #DCC4F5;
-    padding: 20px;
-    margin:20px;
-    border-radius: 10px;
-    width:40%;
-    height:45%;
+.Info__body{
+    display: flex;
+    flex-direction: row;
+}
+.Info__options{
+    flex:1;
+}
+.Info__section{
+    flex:3;
 }
 .InfoImage{
     width: 100%;
     height: 120px;
     border-radius: 10px;
 }
+.Infoopt__box{
+    background-color: #DCC4F5;
+    text-align: center;
+    height: 7%;
+    margin: 10px;
+    padding: 14px;
+    border-radius: 7px;
+}
+.Infoopt__title{
+    color: #5B10A8;
+    font-family: Sora;
+    font-size: 2em;
+}
+.Info__posts{
+    display: flex;
+    flex-direction: row;
+}
+.Info__container{
+    background-color: #DCC4F5;
+    padding: 1%;
+    margin:1%;
+    border-radius: 10px;
+    width:50%;
+    height:100%;
+}
 .InfoTitle{
     color:#5B10A8;
-    margin:10px;
+    margin-left:10px;
+    margin-top: 10px;
     font-family: Sora;
     font-weight: bold;
     font-size:2em;
 }
 .InfoInfo{
     color:#5B10A8;
-    padding-left: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .InfoButton{
     background-color: #5B10A8;
@@ -29,14 +58,7 @@
     height:20%;
     border-radius:50px;
     font-family: Sora;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
     font-weight: bold;
-}
-.Info__posts{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.Info__section{
-    margin-left: 270px;
 }
