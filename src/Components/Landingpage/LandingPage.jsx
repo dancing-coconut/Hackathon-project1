@@ -1,11 +1,12 @@
 import React from "react";
 import NavigationBar from "../NavigationBar.jsx";
+import ExploreSection from "./ExploreSection.jsx";
 import MainSection from "./MainSection.jsx";
 import SubSection from "./SubSection.jsx";
 
 function LandingPage(props){
     return(
-        <div>
+        <div style={{height:"1300px"}}>
             <NavigationBar itemcolor="#5B10A8"/>
             <MainSection />
             <div className="subsection">
@@ -15,6 +16,7 @@ function LandingPage(props){
             
                 <SubSection bgUrl="/Images/LandingPage/BitcoinMiningMainPage.png" alt="bitcoin-Mining" title="Bitcoin-Mining" pathtitle="MiningPage"></SubSection>
             </div>
+            <ExploreSection />
         </div>
     );
 }

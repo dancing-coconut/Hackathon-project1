@@ -10,6 +10,7 @@ import PostPage from "./PostPage/PostPage";
 import InfoPage from "./Infopage/InfoPage";
 import AboutMe from "./Profilepage/AboutMe";
 import MyBlogs from "./Profilepage/MyBlogs";
+import BlogPage from "./BlogPage/BlogPage";
 
 function App(props) {
   return (
@@ -26,7 +27,7 @@ function App(props) {
           <Route path="/InfoPage" component={InfoPage} />
           <Route path="/AboutMe" component={AboutMe} />
           <Route path="/MyBlogs" component={MyBlogs} />
-
+          <Route path="/BlogPage" component={BlogPage} />
         </Switch>
       </div>
     </Router>

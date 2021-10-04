@@ -3,7 +3,6 @@ import Logo from "./Landingpage/Logo";
 import Item from "./Landingpage/Item";
 import {Link} from 'react-router-dom';
 
-
 function Profilenavbar(props){
     return(
         <div style={{backgroundColor:props.bgcolor}} className="menu__items--div">
@@ -18,7 +17,6 @@ function Profilenavbar(props){
     );    
 }
 function Normalnavbar(props){
-    console.log(props.itemcolor,props.bgcolor);
     return(
         <div style={{backgroundColor:props.bgcolor}}>
             <Logo color={props.itemcolor}/>
