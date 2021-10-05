@@ -1,33 +1,32 @@
-
 const ExploreBoxContents = [
     {
         id:1,
-        feature:"Blog feature 1",
-        logo:"23/02/2003",
+        feature:"Blogs",
+        logo:"Blog",
         color:"#7847B1"
     },
     {
         id:2,
-        feature:"Blog feature 2",
-        logo:"13/04/2003",
+        feature:"Compare Cryptocurrencies",
+        logo:"Compare",
         color:"#17AEEF"
     },
     {
         id:3,
-        feature:"Blog feature 2",
-        logo:"22/04/2003",
+        feature:"Track Your Progress",
+        logo:"Progress",
         color:"#16C4D7"
     },
     {
         id:4,
-        feature:"Blog feature 2",
-        logo:"22/04/2003",
+        feature:"Real time market Analytics",
+        logo:"Analysis",
         color:"#EE5F64"
     },
     {
         id:5,
-        feature:"Blog feature 2",
-        logo:"22/04/2003",
+        feature:"Learn Cryptocurrency from A-Z",
+        logo:"Learn",
         color:"#E97BC7"
     }
 ]

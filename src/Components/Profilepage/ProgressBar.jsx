@@ -7,7 +7,7 @@ const iconStyles = {
   descIcon: {
     fontSize: "50px",
     color: "#5B10A8",
-  },
+  }
 };
 
 const percentage = 40;

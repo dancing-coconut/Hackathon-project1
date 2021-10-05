@@ -4,7 +4,7 @@ import BookmarksIcon from '@mui/icons-material/Bookmarks';
 import CommentIcon from '@mui/icons-material/Comment';
 function BlogSection(props) {
     return (
-        <div className="">
+        <div className="Blog__box">
             <div className="Author__section">
                 <AccountCircleIcon className="Account__icon"/>
                 <div className="Author__details">

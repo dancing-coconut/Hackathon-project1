@@ -6,7 +6,7 @@ import SubSection from "./SubSection.jsx";
 
 function LandingPage(props){
     return(
-        <div style={{height:"1300px"}}>
+        <div style={{height:"1370px"}}>
             <NavigationBar itemcolor="#5B10A8"/>
             <MainSection />
             <div className="subsection">

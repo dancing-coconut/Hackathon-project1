@@ -7,6 +7,7 @@ function BlogPage(props) {
         <div>
             <NavigationBar itemcolor="white" bgcolor="#5B10A8" navtype="profile1" />
             <div className="Search__area">
+                <div className="Search__box"></div>
             </div>
             <div style={{display:"flex"}} className="Blog-Row">
                 <BlogSection author="Author 1" date="DD/MM/YYYY" blogname="Blog Title 1"
