@@ -217,10 +217,21 @@ body{
   border-radius: 36px;
 }
 
-.exploreBoxText{
+.exploreBoxTitle{
   position: absolute;
   font-size: 25px;
   color:#FFFFFF;
-  top: 33%;
-  left: 4.5%;
+  top: 40%;
+  left: 5%;
+}
+
+.exploreBoxText{
+  position: absolute;
+  font-size: 18px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  top: 60%;
+  left: 5%;
+  width:90%;
+  margin: 0 50px 0 0;
 }
