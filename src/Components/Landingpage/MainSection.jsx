@@ -14,9 +14,6 @@ function MainSection() {
       </button>
       <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
         <Signup />
-        <button onClick={() => setmodalIsOpen(false)}>
-          Close
-        </button>
       </Modal>
     </div>
   );
