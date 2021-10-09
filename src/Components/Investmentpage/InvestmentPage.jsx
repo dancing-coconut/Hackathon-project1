@@ -5,7 +5,7 @@ import SubPageBox from "../SubPageBox";
 function InvestmentPage() {
 	return(
 		<div className="Investment__header">
-            <NavigationBar itemcolor="white"/>
+            <NavigationBar itemcolor="white" bgcolor=""/>
 			{/* <img className="Investment__img" src="/Images/BitcoingInvestment.jpg" alt="Sub Page Background"/> */}
 			<h1 className="Investment__title">Investment</h1>
 			<p className="Investment__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
