@@ -19,19 +19,19 @@ function TransactionsPage() {
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-				" subid="1" name="LibraryBooksIcon" color1="D55C3F"/>
+				" subid="1" name="LibraryBooksIcon" color1="D55C3F" feature__type="InfoPage"/>
 				<SubPageBox subtitle="The Blog Page" subdesc="
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-				" subid="2" name="ChromeReaderModeIcon" color1="FCD755"/>
+				" subid="2" name="ChromeReaderModeIcon" color1="FCD755" feature__type="BlogPage"/>
 				<SubPageBox subtitle="Other Resources" subdesc="
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  
-				" subid="3" name="DevicesOtherIcon" color1="0C89E3"/>
+				" subid="3" name="DevicesOtherIcon" color1="0C89E3" feature__type="ResourcePage"/>
 			</div>
 		</div>
 	);

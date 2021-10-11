@@ -20,19 +20,19 @@ function InvestmentPage() {
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  
-				" subid="1" name="LibraryBooksIcon" color1="40ECF6"/>
+				" subid="1" name="LibraryBooksIcon" color1="40ECF6" feature__type="InfoPage"/>
 				<SubPageBox subtitle="The Blog Page" subdesc="
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  
-				" subid="2" name="ChromeReaderModeIcon" color1="3496CB"/>
+				" subid="2" name="ChromeReaderModeIcon" color1="3496CB" feature__type="BlogPage"/>
 				<SubPageBox subtitle="Other Resources" subdesc="
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-				" subid="3" name="DevicesOtherIcon" color1="192486"/>
+				" subid="3" name="DevicesOtherIcon" color1="192486" feature__type="ResourcePage"/>
 			</div>
 		</div>
 	);

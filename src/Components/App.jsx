@@ -8,8 +8,6 @@ import ProfilePage from "./Profilepage/ProfilePage";
 import Resource from "./Resourcepage/Resource";
 import PostPage from "./PostPage/PostPage";
 import InfoPage from "./Infopage/InfoPage";
-import AboutMe from "./Profilepage/AboutMe";
-import MyBlogs from "./Profilepage/MyBlogs";
 import BlogPage from "./BlogPage/BlogPage";
 
 function App(props) {
@@ -25,8 +23,6 @@ function App(props) {
           <Route path="/ProfilePage" component={ProfilePage} />
           <Route path="/PostPage" component={PostPage} />
           <Route path="/InfoPage" component={InfoPage} />
-          <Route path="/AboutMe" component={AboutMe} />
-          <Route path="/MyBlogs" component={MyBlogs} />
           <Route path="/BlogPage" component={BlogPage} />
         </Switch>
       </div>
