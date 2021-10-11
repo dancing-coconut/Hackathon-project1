@@ -4,7 +4,7 @@ import SubPageBox from "../SubPageBox"
 function TransactionsPage() {
 	return(
 		<div className="Transactions__header">
-            <NavigationBar itemcolor="white" bgcolor=""/>
+            <NavigationBar itemcolor="white" bgcolor="" hovercolor="#0A2C48" hoverbgcolor="#FFF"/>
 			{/* <img className="Transactions__img" src="/Images/BitcoinTransactions.png" alt="Sub Page Background"/> */}
 			<h1 className="Transactions__title">Transactions</h1>
 			<p className="Transactions__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

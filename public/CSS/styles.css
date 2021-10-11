@@ -73,10 +73,6 @@ body{
   position: relative;
   text-decoration: none;
 }
-.title__menu:hover{
-  background: linear-gradient(242.75deg, #410C75 19.25%, #B638FF 67%);
-  color: #FFFFFF;
-}
 
 .item1{
   position: absolute;
@@ -140,6 +136,7 @@ body{
   top:0px;
   width: 41.25vw;
   height: 32%;
+  z-index: 0;
 }
 .subsection__Transaction{
   display: inline-block;
@@ -147,6 +144,7 @@ body{
   top: 30.5vh;
   width: 41.25vw;
   height: 32%;
+  z-index: 0;
 }
 
 .subsection__Bitcoin-Mining{
@@ -155,6 +153,7 @@ body{
   bottom:0px;
   width: 41.25vw;
   height: 32%;
+  z-index: 0;
 }
 .subsectionImg__Investments{
   border-radius: 23px;
@@ -171,6 +170,7 @@ body{
   width:100%;
   max-height:100%;
 }
+
 .title__sub{ /*Subsection Title*/
   font-family: Sora;
   font-style: normal;
@@ -183,9 +183,10 @@ body{
   z-index: 1;
   width: 420px;
 }
+
 .title__subInvestments{
   top: 14vh;
-  left:30px
+  left:30px;
   /* left: 30px; */
 }
 .title__subTransaction{
@@ -203,7 +204,7 @@ body{
   bottom:90vh;
   display: flex;
   justify-content: space-between;
-  margin: 2% 3% 2% 2%;
+  margin: 2% 1.75% 2% 0.38%;
   flex-wrap: wrap;
 }
 

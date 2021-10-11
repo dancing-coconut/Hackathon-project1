@@ -1,18 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Item(props){
-    function changeHoverState(e){
-        e.target.style.background = props.hoverbgcolor;
-        e.target.style.color =  "#FFFFFF";
+function Item(props) {
+    const [isHover, setIsHover] = useState(false);
+    function changeHoverState() {
+        setIsHover(true);
     }
-    function changeHoverStateBack(e){
-        e.target.style.background = props.bgcolor;
-        e.target.style.color =  props.color;
+    function changeHoverStateBack(e) {
+        setIsHover(false);
     }
-    const color1=props.color;
-    return(
-        <p onMouseOver={changeHoverState} onMouseOut={changeHoverStateBack} className="title__menu" style={{color:color1,height:"72px"}} href="/">{props.option}</p>
-    )
+    const textColor = props.color;
+    const hoverTextColor = props.hovercolor;
+    const backgroundColor1 = props.bgcolor;
+    const hoverbackgroundColor = props.hoverbgcolor;
+    console.log(backgroundColor1);
+    console.log(hoverbackgroundColor);
+    return (
+        <p style={{ color: isHover ? hoverTextColor : textColor, background: isHover ? hoverbackgroundColor : backgroundColor1, height: "72px" }} onMouseOver={changeHoverState} onMouseOut={changeHoverStateBack} className="title__menu" href="/">
+            {props.option}
+        </p>
+    );
 }
 
 export default Item;

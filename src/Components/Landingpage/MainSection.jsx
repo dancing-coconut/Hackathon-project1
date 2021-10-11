@@ -1,3 +1,4 @@
+import { width } from "@mui/system";
 import React,{useState} from "react";
 import Modal from 'react-modal';
 import Signup from "./Signup";
