@@ -50,7 +50,13 @@ body{
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 90px;
+  color: #FFFFFF;
+  transition: 1s;
+  width: 100%;
+  height: 100%;
+}
+.buttondesc__main:hover{
   color: #5B10A8;
 }
 
@@ -99,10 +105,17 @@ body{
   width: 401px;
   left: 233px;
   top: 841px;
+  border: 2.5px solid #FFFFFF;
   border-radius: 57px;
   position:absolute;
   top: 80%;
   left: 180px;
+  background: -webkit-linear-gradient(0deg, transparent 50%,#FFFFFF  50%);
+  background-size: 802px 101px;
+  transition: 1s;
+}
+.button__main:hover{
+  background-position: 401px 0;
 }
 .WholeLogo{
   display: inline-block;

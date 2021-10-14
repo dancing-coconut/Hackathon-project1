@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import Modal from 'react-modal';
-import Signup from "./Signup";
+// import Signup from "./Signup";
 
 function MainSection() {
   const [modalIsOpen, setmodalIsOpen] = useState(false)
@@ -12,9 +12,9 @@ function MainSection() {
       <button type="button" className="button__main" onClick={() => setmodalIsOpen(true)}>
         <p className="buttondesc__main">Get Started Now</p>
       </button>
-      <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
+      {/* <Modal isOpen={modalIsOpen} onRequestClose={() => setmodalIsOpen(false)}>
         <Signup />
-      </Modal>
+      </Modal> */}
     </div>
   );
 }

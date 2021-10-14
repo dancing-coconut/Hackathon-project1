@@ -11,9 +11,7 @@ function LandingPage(props){
             <MainSection />
             <div className="subsection">
                 <SubSection bgUrl="/Images/LandingPage/InvestmentMainPage.png" alt="bitcoin-Investments" title="Investments" pathtitle="InvestmentPage"></SubSection>
-           
-                <SubSection bgUrl="/Images/LandingPage/TransactionMainPage.png" alt="bitcoin-Transaction" title="Transaction" pathtitle="TransactionsPage"></SubSection>
-            
+                <SubSection bgUrl="/Images/LandingPage/TransactionMainPage.png" alt="bitcoin-Transaction" title="Transaction" pathtitle="TransactionsPage"></SubSection> 
                 <SubSection bgUrl="/Images/LandingPage/BitcoinMiningMainPage.png" alt="bitcoin-Mining" title="Bitcoin-Mining" pathtitle="MiningPage"></SubSection>
             </div>
             <ExploreSection />
