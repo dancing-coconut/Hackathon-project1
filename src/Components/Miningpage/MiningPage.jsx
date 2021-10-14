@@ -5,7 +5,7 @@ import SubPageBox from "../SubPageBox"
 function MiningPage() {
 	return(
 		<div className="Mining__header">
-            <NavigationBar itemcolor="white" bgcolor=""/>
+            <NavigationBar itemcolor="white" bgcolor="" hovercolor="#023453" hoverbgcolor="#FFF"/>
 			{/* <img className="Transactions__img" src="/Images/BitcoinTransactions.png" alt="Sub Page Background"/> */}
 			<h1 className="Mining__title">Bitcoin Mining</h1>
 			<p className="Mining__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

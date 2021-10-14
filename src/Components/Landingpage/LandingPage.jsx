@@ -7,7 +7,7 @@ import SubSection from "./SubSection.jsx";
 function LandingPage(props){
     return(
         <div style={{height:"1300px"}}>
-            <NavigationBar itemcolor="#5B10A8" bgcolor="#FFFFFF" hoverbgcolor="linear-gradient(242.75deg, #410C75 19.25%, #B638FF 67%)" />
+            <NavigationBar itemcolor="#5B10A8" bgcolor="#FFFFFF" hovercolor="#FFFFFF" hoverbgcolor="linear-gradient(242.75deg, #410C75 19.25%, #B638FF 67%)"/>
             <MainSection />
             <div className="subsection">
                 <SubSection bgUrl="/Images/LandingPage/InvestmentMainPage.png" alt="bitcoin-Investments" title="Investments" pathtitle="InvestmentPage"></SubSection>
